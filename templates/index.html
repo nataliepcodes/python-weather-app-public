@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <h1>Sunni 🐧 : The Weather App</h1>
+    <p>{{ date }}</p>
+    <div>
+      <form action="/" method="post">
+        <input
+          type="text"
+          name="location-name"
+          placeholder="Enter a location here.. "
+        />
+        <input type="submit" value="Search" />
+      </form>
+    </div>
+    {% if current_weather %} {% if current_weather.location %}
+    <p>Location: {{ current_weather.location}}</p>
+    {% else %}
+    <p>Location: {{ location_name }}</p>
+    {% endif %}
+    <p>
+      Condition: {{ current_weather.condition}} |
+      <img
+        src="https://openweathermap.org/img/wn/{{ current_weather.icon }}@2x.png"
+        alt="icon"
+      />
+    </p>
+    <p>Temp: {{ current_weather.temp_c}} °C</p>
+    <p>Feels Like: {{ current_weather.feelslike_c}} °C</p>
+    <p>Humidity: {{ current_weather.humidity}}</p>
+    {% endif %}
+    <h2>5 Day Weather Forecast</h2>
+    <table>
+      <tr>
+        {% for day in forecast.date_list %}
+        <td>{{ day }}</td>
+        {% endfor %}
+      </tr>
+      <tr>
+        {% for icon in forecast.icon_list %}
+        <td>
+          <img
+            src="https://openweathermap.org/img/wn/{{ icon }}@2x.png"
+            alt="icon"
+          />
+        </td>
+        {% endfor %}
+      </tr>
+      <tr>
+        {% for temp in forecast.temp_list %}
+        <td>{{ temp }} °C</td>
+        {% endfor %}
+      </tr>
+    </table>
+
+    <h2>Includes weather data for 45 Antarctica research base stations ❄️</h2>
+    {% for station in stations %}
+    <table>
+      {{ station }}
+    </table>
+    {% endfor %}
+  </body>
+</html>

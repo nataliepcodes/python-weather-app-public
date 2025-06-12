@@ -1,0 +1,27 @@
+# List of base and research stations in Antarctica. Source: https://en.wikipedia.org/wiki/Research_stations_in_Antarctica
+stations_list = [
+    'Amundsen–Scott Base', 'Arctowski', 'Arrival Heights Laboratory', 'Artigas Base', 'Arturo Prat Station', 
+    'Belgrano II Base', 'Bellingshausen Station','Bharati Research Station', 
+    'Carlini Base', 'Casey Station', 'Comandante Ferraz Antarctic Station', 'Concordia Station',
+    'Davis Base Station', "Dumont d'Urville Station", 
+    'Eco-Nelson Station', 'Eduardo Frei Station', 'Escudero Station', 'Esperanza Station',
+    'GARS Station', "General Bernardo O'Higgins Station", 'Great Wall Station',
+    'Halley Research Station',
+    'Jang Bogo Station',
+    'King Sejong Station',
+    'Maitri Station', 'Marambio Base Station', 'Mawson Station', 'McMurdo Station', 'Mirny Station',
+    'Neumayer III Station', 'Novolazarevskaya Station',
+    'Orcadas Base Station',
+    'Palmer Base Station', 'Progress Research Station',
+    'Qinling Station',
+    'Rothera Station',
+    'San Martin Base Station',
+    'SANAE IV Station',
+    'Scott Base Station',
+    'Showa Station',
+    'Troll Base Station',
+    'Vernadsky Station',
+    'Villa Las Estrellas Station', 
+    'Vostok Research Station', 
+    'Zhongshan Station'
+]
