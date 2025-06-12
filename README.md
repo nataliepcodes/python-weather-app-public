@@ -22,14 +22,14 @@
   ✅ Includes weather data for 45 Antarctica research base stations ❄️ \
   ✅ Location: 1. current 2. specific via search \
   ✅ Today's Weather \
-  ✅ 5 Day weather forecast \
+  ✅ 5 Day weather forecast
 - In Progress\
-  🚀 Timemachine, Historical weather data (free API search) \
+  🚀 Timemachine, Historical weather data (free API search)
 - To Do\
   🚀 Data Analysis\
   🚀 Cloud deployment\
   🚀 Cache system\
-  🚀 UI, styling\
+  🚀 UI, styling
 
 # Team
 
