@@ -30,9 +30,3 @@
   🚀 Cloud deployment\
   🚀 Cache system\
   🚀 UI, styling
-
-# Team
-
-- Natalie P
-- Anyone welcome to contribute
-- Initial project spec & features source: Qwasar, 2023
